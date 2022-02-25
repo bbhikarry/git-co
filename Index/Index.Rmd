@@ -38,65 +38,6 @@ style_duo_accent(
 )
 ```
 
-
-```{r, include=FALSE}
-library(countdown) 
-```
-```{r broadcast, echo=FALSE}
-xaringanExtra::use_broadcast()
-```
-
-```{r, include=FALSE}
-at <-"Andrea Tuitt"  
-```
-```{r, include=FALSE}
-amr <-"Andy Roberts"
-```
-
-```{r, include=FALSE}
-bb <-"Bertrand Bhikarry"
-
-```{r, include=FALSE}
-ra <-"Ryan Allard" 
-```
-
-```{r, include=FALSE}
-sm <-"Sean McCoon"
-```
-```{r, include=FALSE}
-et <-"Environment Tobago"
-```
-```{r, include=FALSE}
-ngo <-"Non-profit organisation"
-```
-```{r, include=FALSE}
-ngos <-"Non-profit organisations"
-```
-
-```{r, include=FALSE}
-thata <-"Tobago Hotel and Tourism Association"
-```
-
-
-```{r xaringan-logo, echo=FALSE}
-xaringanExtra::use_logo(
-  image_url = "https://drive.google.com/uc?export=view&id=1bGdksPPXUGUGtrIKokOJExEw1lxG3GYn"
-)
-```
-
-
-```{r, echo=FALSE}
-xaringanExtra::use_webcam(width = 300, height = 225)
-```
-```{r xaringan-panelset, echo=FALSE}
-xaringanExtra::use_panelset()
-```
-
-```{r xaringanExtra, echo=FALSE}
-xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
-```
-
-
 ## Typography
 
 Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
