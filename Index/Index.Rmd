@@ -1,9 +1,9 @@
 ---
-title: "Presentation Ninja"
-subtitle: "&#x2694;&#xFE0F; xaringan +<br/>&#x1F60E; xaringanthemer"  
+title: "Get In Touch"
+subtitle: "An events company making a difference"  
 author: 
-  - "Yihui Xie"
-  - "Garrick Aden-Buie"
+  - "Bertrand"
+  - "Greville"
 date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
@@ -95,8 +95,42 @@ xaringanExtra::use_panelset()
 ```{r xaringanExtra, echo=FALSE}
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
+## Intro to Get In Touch
+ Welcome. Whos Who in Sport, Recreation, Wellness and Food
+
+???
+In no particular order
+---
+## Why Get in Touch?
+
+Tobago and then Trinidad needs a tourism tier that is profit oriented but aware 
+
+???
+Apologies. We already had the name.
+
+---
+## What is Get in Touch?
+
+---
+## How will GIT work?
+
+.pull-left[ #### Before formation
+
+- mandate (*today's meeting*) 
+- Legal advice
+- Action by incorporators after advice]
 
 
+.pull-right[#### After formation
+
+- Decide on Strategy
+- Internals
+- Operate
+]
+
+???
+Incorporators are BB, AMR, RA for ET
+---
 ## Typography
 
 Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
