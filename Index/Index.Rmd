@@ -38,6 +38,7 @@ style_duo_accent(
 )
 ```
 
+<<<<<<< HEAD
 
 ```{r, include=FALSE}
 library(countdown) 
@@ -97,6 +98,25 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 
 ## Intro to Get In Touch
  Welcome. Whos Who in Sport, Recreation, Wellness and Food
+=======
+## Typography
+
+Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
+
+[Link to another slide](#colors).
+
+### Lorem Ipsum
+
+Dolor imperdiet nostra sapien scelerisque praesent curae metus facilisis dignissim tortor. 
+Lacinia neque mollis nascetur neque urna velit bibendum. 
+Himenaeos suspendisse leo varius mus risus sagittis aliquet venenatis duis nec.
+
+- Dolor cubilia nostra nunc sodales
+
+- Consectetur aliquet mauris blandit
+
+- Ipsum dis nec porttitor urna sed
+>>>>>>> d0bccf8e43a923cbcab7b12451885fb016fa385d
 
 ???
 In no particular order
