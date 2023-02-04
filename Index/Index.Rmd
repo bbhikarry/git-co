@@ -1,6 +1,6 @@
 ---
-title: "Get In Touch"
-subtitle: "An events company making a difference"  
+title: "Get In Touch Trinidad and Tobago"
+subtitle: "Events company making a difference"  
 author: 
   - "Bertrand"
   - "Sean"
@@ -15,30 +15,6 @@ output:
       ratio: 16:9
       countIncrementalSlides: true
 ---
-
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-knitr::opts_chunk$set(
-  fig.width=9, fig.height=3.5, fig.retina=3,
-  out.width = "100%",
-  cache = FALSE,
-  echo = TRUE,
-  message = FALSE, 
-  warning = FALSE,
-  hiline = TRUE
-)
-```
-
-```{r xaringan-themer, include=FALSE, warning=FALSE}
-library(xaringanthemer)
-style_duo_accent(
-  primary_color = "#1381B0",
-  secondary_color = "#FF961C",
-  inverse_header_color = "#FFFFFF"
-)
-```
-
-<<<<<<< HEAD
 
 ```{r, include=FALSE}
 library(countdown) 
@@ -83,7 +59,6 @@ xaringanExtra::use_logo(
 )
 ```
 
-
 ```{r, echo=FALSE}
 xaringanExtra::use_webcam(width = 300, height = 225)
 ```
@@ -91,19 +66,45 @@ xaringanExtra::use_webcam(width = 300, height = 225)
 xaringanExtra::use_panelset()
 ```
 
+
 ```{r xaringanExtra, echo=FALSE}
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
 
 
-## Intro to Get In Touch
- Welcome. Whos Who in Sport, Recreation, Wellness and Food
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#1c5253",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+## Welcome Get In Touch
+
+ Sport, Recreation, Wellness and Food
 =======
+
 ## Typography
 
 Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
 
-[Link to another slide](#colors).
+[Link to another slide](#sample-idea).
 
 ### Lorem Ipsum
 
@@ -188,11 +189,13 @@ AWARENESS factors high
 *Can we cash in on awareness*?
 
 ---
+name: sample-idea
+
 
 ## Sample idea
 
-Plant trees for weddings, deaths other commentorative events (for a fee). Add social media and other forms of long term reporting
+Plant trees for weddings, deaths other commemorative events (*for a fee*). Add social media and other forms of long term reporting per tree.
 
-On Greehill?
+On Greenhill?
 
 
